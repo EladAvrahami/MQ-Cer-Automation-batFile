@@ -59,7 +59,8 @@ enter aes-256-cbc decryption password:
   OpenSSL>
  </pre>
  
-<h3>  (CSR) certificate בקשת החתמת תעודה </h3> 
+<h3>  (CSR) certificate בקשת החתמת תעודה </h3>
+<!-- https://www.golinuxcloud.com/things-to-consider-when-creating-csr-openssl/ -->
 <h4>  Certificate Signing Request </h4>
 
  <pre>
