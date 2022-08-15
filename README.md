@@ -24,6 +24,7 @@ path -
 
 
 <h3>  יצירת קובץ עם תוכן הצפנה וביטול הצפנה באמצעות הגדרת סיסמא  </h3>
+<!-- https://www.golinuxcloud.com/generate-self-signed-certificate-openssl/  -->
 <pre>
 C:\Users\AP0I6
 λ   echo secret > mypass
