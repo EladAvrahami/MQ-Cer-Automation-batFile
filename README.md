@@ -53,8 +53,8 @@ enter aes-256-cbc decryption password:
   OpenSSL>
  </pre>
  
-<h3>  בקשת החתמת תעודה </h3> 
-<h4>  Certificate Signing Request</h4>
+<h3>  (CSR) certificate בקשת החתמת תעודה </h3> 
+<h4>  Certificate Signing Request </h4>
 
  <pre>
  
