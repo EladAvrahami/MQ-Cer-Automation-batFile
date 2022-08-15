@@ -60,7 +60,7 @@ enter aes-256-cbc decryption password:
  </pre>
  
  
- <h3>  genarete new certificate file based on new jks file  (key store) </h3>
+ <h3>  ****genarete new certificate file based on new jks file  (key store) *****</h3>
 befor start:  make sure you have env variable (%Path%) before starting and downloud ikeyman tool 
  <pre>
  C:\Users\AP0I6>keytool -genkey -alias new1 -keyalg RSA -keystore "C:\root\certs\new1.jks"
