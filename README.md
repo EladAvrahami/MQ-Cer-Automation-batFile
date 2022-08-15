@@ -59,6 +59,40 @@ enter aes-256-cbc decryption password:
   OpenSSL>
  </pre>
  
+ 
+ <h3>  genarete new certificate file based on new jks file  (key store) </h3>
+befor start:  make sure you have env variable (%Path%) before starting and downloud ikeyman tool 
+ <pre>
+ C:\Users\AP0I6>keytool -genkey -alias new1 -keyalg RSA -keystore "C:\root\certs\new1.jks"
+Enter keystore password:
+Re-enter new password:
+What is your first and last name?
+  [Unknown]:
+What is the name of your organizational unit?
+  [Unknown]:
+What is the name of your organization?
+  [Unknown]:
+What is the name of your City or Locality?
+  [Unknown]:
+What is the name of your State or Province?
+  [Unknown]:
+What is the two-letter country code for this unit?
+  [Unknown]:
+Is CN=Unknown, OU=Unknown, O=Unknown, L=Unknown, ST=Unknown, C=Unknown correct? (type "yes" or "no")
+  [no]:  yes
+
+Enter key password for <new1>:
+        (RETURN if same as keystore password):
+
+C:\Users\AP0I6>keytool -export -alias new1 -file "C:\root\certs\new1.cer" -keystore "C:\root\certs\new1.jks"
+Enter keystore password:
+Certificate stored in file <C:\root\certs\new1.cer>
+
+C:\Users\AP0I6>
+ </pre>
+ 
+ 
+ 
 <h3>  (CSR) certificate בקשת החתמת תעודה </h3>
 <!-- https://www.golinuxcloud.com/things-to-consider-when-creating-csr-openssl/ -->
 <h4>  Certificate Signing Request </h4>
