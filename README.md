@@ -52,3 +52,10 @@ enter aes-256-cbc decryption password:
  ■s e c r e t
   OpenSSL>
  </pre>
+ 
+<h3>  בקשת החתמת תעודה </h3> 
+<h4>  Certificate Signing Request</h4>
+
+ <pre>
+ 
+ </pre>
