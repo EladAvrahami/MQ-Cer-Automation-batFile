@@ -27,8 +27,6 @@ q - man חזרה לקומנדליין יצא מהעמוד של
 <h3>  Environment Variables </h3>
 path - 
 
-
-
 <h3>  יצירת קובץ עם תוכן הצפנה וביטול הצפנה באמצעות הגדרת סיסמא  </h3>
 <!-- https://www.golinuxcloud.com/generate-self-signed-certificate-openssl/  -->
 <pre>
@@ -91,6 +89,9 @@ Certificate stored in file <C:\root\certs\new1.cer>
 
 C:\Users\AP0I6>
  </pre>
+ 
+ <h3> How to open jks file : </h3>
+ <pre>C:\Users\AP0I6>keytool -list -v -keystore "Z:\TST\opics\jks\opics\TST_opics.jks"  -("jks file position") </pre>
  
  
  
