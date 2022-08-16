@@ -93,12 +93,11 @@ C:\Users\AP0I6>
  <h3> How to open jks file : </h3>
  <pre>C:\Users\AP0I6>keytool -list -v -keystore "Z:\TST\opics\jks\opics\TST_opics.jks"  -("jks file position") </pre>
  
+  <h4> How to execute shell command from Java: </h4>
+  https: //mkyong.com/java/how-to-execute-shell-command-from-java/
  
- 
-<h3>  (CSR) certificate בקשת החתמת תעודה </h3>
-<!-- https://www.golinuxcloud.com/things-to-consider-when-creating-csr-openssl/ -->
-<h4>  Certificate Signing Request </h4>
 
- <pre>
- 
- </pre>
+<!--  <h3>  (CSR) certificate בקשת החתמת תעודה </h3> -->
+<!-- https://www.golinuxcloud.com/things-to-consider-when-creating-csr-openssl/ -->
+<!--<h4>  Certificate Signing Request </h4>-->
+
