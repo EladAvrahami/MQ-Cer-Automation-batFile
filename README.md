@@ -95,7 +95,7 @@ C:\Users\AP0I6>
  </pre>
  
  <h3>  **** How to genarete new jks file   (key store) *****</h3>
- <pre> keytool -genkey -noprompt -alias alias1 -dname "CN=mqttserver.ibm.com, OU=ID, O=IBM, L=Hursley, S=Hants, C=GB" -keystore keystore.jks -storepass password keypass password </pre>
+ <pre> keytool -genkey -noprompt -alias alias1 -dname "CN=mqttserver.ibm.com, OU=ID, O=IBM, L=Hursley, S=Hants, C=GB" -keystore keystore.jks -storepass password -keypass password </pre>
  
  
  
