@@ -1,4 +1,4 @@
-# linux
+# linux + batch script + JKS 
 <h3>linux basic command </h3>
 <pre>
 clea - clean the command line
