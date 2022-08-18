@@ -94,7 +94,12 @@ Certificate stored in file <C:\root\certs\new1.cer>
 C:\Users\AP0I6>
  </pre>
  
- <h3> How to open jks file : </h3>
+ <h3>  ****genarete new jks file   (key store) *****</h3>
+ <pre> keytool -genkey -noprompt -alias alias1 -dname "CN=mqttserver.ibm.com, OU=ID, O=IBM, L=Hursley, S=Hants, C=GB" -keystore keystore.jks -storepass password keypass password </pre>
+ 
+ 
+ 
+ <h3> How to automate Keystore generation using the java keystore tool : </h3>
  <pre>C:\Users\AP0I6>keytool -list -v -keystore "Z:\TST\opics\jks\opics\TST_opics.jks"  -("jks file position") </pre>
  
   <h4> How to execute shell command from Java: </h4>
