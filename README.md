@@ -94,7 +94,7 @@ Certificate stored in file <C:\root\certs\new1.cer>
 C:\Users\AP0I6>
  </pre>
  
- <h3>  **** How to genarete new jks file   (key store) *****</h3>
+ <h3>  **** How to genarete new jks file  (key store) *****</h3>
  <pre> keytool -genkey -noprompt -alias alias1 -dname "CN=mqttserver.ibm.com, OU=ID, O=IBM, L=Hursley, S=Hants, C=GB" -keystore keystore.jks -storepass password -keypass password </pre>
  
  
@@ -121,5 +121,10 @@ Enter keystore password:*****
 Trust this certificate? [no]:  y
 Certificate was added to keystore
 [Storing C:\Users\AP0I6\Desktop\limor\JKS\keystore.jks]
+</pre>
+
+ <h3> How to add CA (signer Certificate) +automate pass + yes </h3>
+<pre>
+in progress....
 </pre>
 
