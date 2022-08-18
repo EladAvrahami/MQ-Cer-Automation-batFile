@@ -110,3 +110,16 @@ C:\Users\AP0I6>
 <!-- https://www.golinuxcloud.com/things-to-consider-when-creating-csr-openssl/ -->
 <!--<h4>  Certificate Signing Request </h4>-->
 
+ <h3> How to add CA (certificate authrities) to keystore using cmd </h3>
+<pre>
+C:\Users\AP0I6\Desktop\limor\JKS> keytool -v -import -file "C:\Users\someMorePath\CerNameYouWantToInsert.cer" -alias giveHereAnyName -keystore "C:\Users\AP0I6\Desktop\limor\JKS\keystore.jks"
+Enter keystore password:*****
+[will show cer details...
+...
+...
+...]
+Trust this certificate? [no]:  y
+Certificate was added to keystore
+[Storing C:\Users\AP0I6\Desktop\limor\JKS\keystore.jks]
+</pre>
+
