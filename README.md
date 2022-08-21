@@ -94,9 +94,10 @@ Certificate stored in file <C:\root\certs\new1.cer>
 C:\Users\AP0I6>
  </pre>
  
- <h3>  **** How to genarete new jks file  (key store) *****</h3>
- <pre> keytool -genkey -noprompt -alias alias1 -dname "CN=mqttserver.ibm.com, OU=ID, O=IBM, L=Hursley, S=Hants, C=GB" -keystore keystore.jks -storepass password -keypass password </pre>
- 
+ <h3>  **** How to genarete new jks file  (key store)  with personal certificates according to TST/PROD *****</h3>
+ <pre>
+keytool -genkey -noprompt -alias personalCer1 -dname "CN= systemId , OU= Mq Client PRD , O= IBM ORGNIZATION , L= , S= , C= " -keystore keystore.jks -storepass password -keypass password
+ </pre>
  
  
  <h3> How to automate Keystore generation using the java keystore tool : </h3>
@@ -109,6 +110,9 @@ C:\Users\AP0I6>
 <!--  <h3>  (CSR) certificate בקשת החתמת תעודה </h3> -->
 <!-- https://www.golinuxcloud.com/things-to-consider-when-creating-csr-openssl/ -->
 <!--<h4>  Certificate Signing Request </h4>-->
+
+
+
 
  <h3> How to add CA (certificate authrities) to keystore using cmd </h3>
 <pre>
@@ -126,5 +130,10 @@ Certificate was added to keystore
  <h3> How to add CA (signer Certificate) +automate pass + yes </h3>
 <pre>
 keytool -v -import -file "C:\Users\AP0I6\Desktop\limor\certificant.cer" -alias cerName  -keystore "C:\Users\AP0I6\Desktop\limor\JKS\keystoreToAddTheCer.jks" -noprompt -storepass password
+</pre>
+
+ <h3> How to create arm/csr file  </h3>
+<pre>
+keytool -keystore keystore.jks -certreq -alias personalCer1 -keyalg rsa -file personalCer1.arm
 </pre>
 
