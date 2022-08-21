@@ -125,6 +125,6 @@ Certificate was added to keystore
 
  <h3> How to add CA (signer Certificate) +automate pass + yes </h3>
 <pre>
-in progress....
+keytool -v -import -file "C:\Users\AP0I6\Desktop\limor\certificant.cer" -alias cerName  -keystore "C:\Users\AP0I6\Desktop\limor\JKS\keystoreToAddTheCer.jks" -noprompt -storepass password
 </pre>
 
