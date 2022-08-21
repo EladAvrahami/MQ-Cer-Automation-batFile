@@ -94,14 +94,15 @@ Certificate stored in file <C:\root\certs\new1.cer>
 C:\Users\AP0I6>
  </pre>
  
+ <h3> How to automate Keystore generation using the java keystore tool : </h3>
+ <pre>C:\Users\AP0I6>keytool -list -v -keystore "Z:\TST\opics\jks\opics\TST_opics.jks"  -("jks file position") </pre>
+ 
  <h3>  **** How to genarete new jks file  (key store)  with personal certificates according to TST/PROD *****</h3>
  <pre>
 keytool -genkey -noprompt -alias personalCer1 -dname "CN= systemId , OU= Mq Client PRD , O= IBM ORGNIZATION , L= , S= , C= " -keystore keystore.jks -storepass password -keypass password
  </pre>
  
  
- <h3> How to automate Keystore generation using the java keystore tool : </h3>
- <pre>C:\Users\AP0I6>keytool -list -v -keystore "Z:\TST\opics\jks\opics\TST_opics.jks"  -("jks file position") </pre>
  
   <h4> How to execute shell command from Java: </h4>
   https: //mkyong.com/java/how-to-execute-shell-command-from-java/
