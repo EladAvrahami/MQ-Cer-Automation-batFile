@@ -103,11 +103,6 @@ keytool -genkey -noprompt -alias personalCer1 -dname "CN= systemId , OU= Mq Clie
  </pre>
  
  
- 
-  <h4> How to execute shell command from Java: </h4>
-  https: //mkyong.com/java/how-to-execute-shell-command-from-java/
- 
-
 <!--  <h3>  (CSR) certificate בקשת החתמת תעודה </h3> -->
 <!-- https://www.golinuxcloud.com/things-to-consider-when-creating-csr-openssl/ -->
 <!--<h4>  Certificate Signing Request </h4>-->
@@ -138,3 +133,6 @@ keytool -v -import -file "C:\Users\AP0I6\Desktop\limor\certificant.cer" -alias c
 keytool -keystore keystore.jks -certreq -alias personalCer1 -keyalg rsa -file personalCer1.arm
 </pre>
 
+
+  <h4> How to execute shell command from Java: </h4>
+  https: //mkyong.com/java/how-to-execute-shell-command-from-java/
