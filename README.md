@@ -18,6 +18,13 @@ q - man חזרה לקומנדליין יצא מהעמוד של
 
 </pre>
 
+<h3>  switch drivers cmd command : </h3>
+C:\>Z:
+
+Z:\>cd /d C:
+
+C:\>
+
 <h3>  How To Write a Bash Script That Answers Interactive Prompts</h3>
 
 https://stackoverflow.com/questions/4857702/how-to-provide-password-to-a-command-that-prompts-for-one-in-bash
