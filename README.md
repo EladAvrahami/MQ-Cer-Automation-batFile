@@ -131,7 +131,7 @@ keytool -v -import -file "C:\Users\AP0I6\Desktop\limor\certificant.cer" -alias c
  <h3> How to create arm/csr file  </h3>
  .ARM file is a project file storing protection settings to be applied to the selected file or group of files to prevent their illegal use.
 <pre>
-keytool -keystore keystore.jks -certreq -alias personalCer1 -keyalg rsa -file personalCer1.arm
+keytool -keystore keystore.jks -certreq -alias personalCer1 -keyalg rsa -file personalCer1.arm -storepass password
 </pre>
 
 
