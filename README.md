@@ -144,3 +144,5 @@ keytool -keystore keystore.jks -certreq -alias personalCer1 -keyalg rsa -file pe
 
   <h3> How to execute shell command from Java: </h3>
   https: //mkyong.com/java/how-to-execute-shell-command-from-java/
+  
+  <!-- https://www.youtube.com/watch?v=_hMKiqEfxNg -->
