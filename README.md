@@ -145,10 +145,7 @@ keytool -keystore keystore.jks -certreq -alias personalCer1 -keyalg rsa -file pe
   <h3> How to execute shell command from Java: </h3>
   https: //mkyong.com/java/how-to-execute-shell-command-from-java/
   
-  <!-- https://www.youtube.com/watch?v=_hMKiqEfxNg -->
-  
-   <!-- https://o7planning.org/11623/batch-loops#a13535018  LOOP IN BASH SCRIPT-->
-   <!--   SEARCCH IN GOOGLE :   For (/F) Loop in Batch File Programming    -->
+
    
   <h3>LOOP THROUGH .BAT FILE</h3>
 <pre>   
@@ -215,3 +212,8 @@ FOR /F "usebackq skip=2 eol=) tokens=* delims=-"
 ::%%E %%F 
 pause
 </pre>   
+
+  <!-- https://www.youtube.com/watch?v=_hMKiqEfxNg -->
+  
+   <!-- https://o7planning.org/11623/batch-loops#a13535018  LOOP IN BASH SCRIPT-->
+   <!--   SEARCCH IN GOOGLE :   For (/F) Loop in Batch File Programming    -->
