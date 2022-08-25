@@ -213,6 +213,15 @@ FOR /F "usebackq skip=2 eol=) tokens=* delims=-"
 pause
 </pre>   
 
+
+
+ <h3> The Script : </h3>
+ <pre>
+ 
+ 
+ 
+ </pre>
+
   <!-- https://www.youtube.com/watch?v=_hMKiqEfxNg -->
   
    <!-- https://o7planning.org/11623/batch-loops#a13535018  LOOP IN BASH SCRIPT-->
