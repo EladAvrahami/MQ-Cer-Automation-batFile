@@ -18,6 +18,8 @@ q - man חזרה לקומנדליין יצא מהעמוד של
 
 </pre>
 
+TSL&SSL : https://www.internetsociety.org/deploy360/tls/basics/?gclid=EAIaIQobChMI5K714tj_-QIVi41oCR2C_wiuEAAYASAAEgJ7A_D_BwE
+
 <h3>  switch drivers cmd command : </h3>
 C:\>Z:
 
