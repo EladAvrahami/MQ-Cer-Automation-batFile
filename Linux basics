@@ -2,7 +2,13 @@
 <pre>
 clear - clean the command line
 pwd - מראה את כתובת העבודה הנוכחית 
- cd - cd Desktop למשל ייכנס לתוך תקייה בנתיב 
+cd - cd Desktop למשל ייכנס לתוך תקייה בנתיב 
+date -תאריך
+cal - ידפיס את לוח השנה בטרמינל
+ncal - ידפיס את לוח השנה בטרמינל בצורה אנכית 
+
+
+ 
 </pre>
 
 
@@ -16,3 +22,5 @@ G - ייקח אותנו למטה בעמוד
 q - man חזרה לקומנדליין יצא מהעמוד של 
 
 </pre>
+
+<!-- https://poalim.udemy.com/course/the-linux-command-line-bootcamp/learn/lecture/26177178#overview -->
