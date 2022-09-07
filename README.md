@@ -1,22 +1,4 @@
-# linux + batch script + JKS 
-<h3>linux basic command </h3>
-<pre>
-clea - clean the command line
-pwd - מראה את כתובת העבודה הנוכחית 
- cd - cd Desktop למשל ייכנס לתוך תקייה בנתיב 
-</pre>
-
-
-<h3>   man - Manual מדריך לפקודות  : </h3>
-<pre>
-man ls יתן לי את כל האופציות בפקודה הזאת 
-בדף שייפתח בקומנד ליין 
-ננווט כך : 
-g - יעלה אותנו הכי למעלה 
-G - ייקח אותנו למטה בעמוד 
-q - man חזרה לקומנדליין יצא מהעמוד של 
-
-</pre>
+ Batch script + JKS 
 
 TSL & SSL : https://www.internetsociety.org/deploy360/tls/basics/?gclid=EAIaIQobChMI5K714tj_-QIVi41oCR2C_wiuEAAYASAAEgJ7A_D_BwE
 
