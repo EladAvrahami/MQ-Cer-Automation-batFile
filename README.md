@@ -198,6 +198,8 @@ pause
 </pre>   
 
 
+copy files to folder from another folder : https://stackoverflow.com/questions/986447/batch-file-to-copy-files-from-one-folder-to-another-folder
+ROBOCOPY "\install\Elad_Avrahami_Hybrid_Integration\copyFilesFrom" "copyFilesToFolder" /mir
 
  <h3> The Script : </h3>
  <pre>
@@ -205,6 +207,8 @@ pause
  
  
  </pre>
+ 
+ 
 
   <!-- https://www.youtube.com/watch?v=_hMKiqEfxNg -->
   
